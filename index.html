@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="author" content="John Doe">
+    <meta name="description" content="Description de la page pour les moteurs de recherche" />
+    <meta name="keywords" content="mots-clefs séparés par des virgules" />
+    <title>Pulsation de couleur</title>
+    <!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+    <!--si t'es un vieux navigateur, t'as besoin de ça pour comprendre la nouvelle ossature de page issue de html5-->
+
+</head>
+
+<body>
+    <h1>Composez le menu du jour</h1>
+    <p>S'il existe déjà un plat pour ce moment du repas, cela sera rajouté dans un tableau</p>
+    <form method="POST" action="#">
+        <label for="clefRepas">La clef :</label><input id="clefRepas" name="clefRepas" type="text" />
+        <label for="valeurClef">La valeur :</label><input id="valeurClef" name="valeurClef" type="text" />
+        <input id="bouton" type="submit" value="Ajouter" />
+    </form>
+
+    <section id="menu">
+    </section>
+
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
